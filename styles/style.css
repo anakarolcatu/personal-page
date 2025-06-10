@@ -45,6 +45,7 @@ body{
     color: var(--cor-texto);
 }
 
+/* Estilização para quando a página for a ativa */
 .cabecalho__menu__link.ativo {
     color: var(--cor-texto);
     border-bottom: 2px solid var(--cor-destaque);
@@ -65,11 +66,7 @@ body{
     gap: 2em;
 }
 
-.titulo-destaque{
-    color: var(--cor-destaque);
-}
-
-.apresentacao__conteudo__destaque {
+.titulo-destaque, .apresentacao__conteudo__destaque{
     color: var(--cor-destaque);
 }
 
@@ -191,7 +188,7 @@ body{
 }
 
 
-/*responsividade*/
+/*responsividade para telas menores que 1200px*/
 @media (max-width: 1200px) {
     .cabecalho{
         padding: 10%;
